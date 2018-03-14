@@ -64,3 +64,5 @@ if __name__ == '__main__':
     if len(args) == 2:
         website_url = args[1]
         app.start(website_url)
+    else:
+        print("You have to specify website url")
